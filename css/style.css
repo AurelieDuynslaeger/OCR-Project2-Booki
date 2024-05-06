@@ -204,6 +204,59 @@ a {
 }
 
 
+/****** Activités ***********/
+.activites {
+    width: 100%;
+    margin-top: 33px;
+}
+
+.activites-cards {
+    display: flex;
+    margin-top: 33px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activites-cards .card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.activites-cards a {
+    flex-basis: 20%;
+    height: 320px;
+}
+
+.activites-cards img {
+    width: 100%;
+    height: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites-cards .card-content {
+    width: 67%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.activites-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.activites-cards .card-subtitle {
+    margin: 0;
+}
+
+.activites-cards .card-rating {
+    margin-bottom: 5px;
+}
+
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
