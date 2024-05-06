@@ -30,27 +30,30 @@
             </div>
             <div class="recherche">
                 <form class="form-recherche" action="">
-                    <i class="fa-solid fa-location-dot"></i>
+                    <button class="geolocalisation"><i class="fa-solid fa-location-dot"></i></button>
                     <input type="text" name="city-search" id="city-search" placeholder="Marseille, France">
-                    <button type="submit">Rechercher</button>
+                    <button type="submit" class="desktop">Rechercher</button>
+                    <button type="submit" class="mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
                 <div class="filtres-recherche">
                     <p>Filtres</p>
-                    <div class="filter">
-                        <input type="radio" id="eco" name="filters" value="eco" checked />
-                        <label for="eco"><i class="fa-solid fa-money-bill-wave"></i> Economique</label>
-                    </div>
-                    <div class="filter">
-                        <input type="radio" id="family" name="filters" value="family" checked />
-                        <label for="family"><i class="fa-solid fa-person"></i> Familial</label>
-                    </div>
-                    <div class="filter">
-                        <input type="radio" id="romantic" name="filters" value="romantic" checked />
-                        <label for="romantic"><i class="fa-solid fa-heart"></i> Romantique</label>
-                    </div>
-                    <div class="filter">
-                        <input type="radio" id="gold" name="filters" value="gold" checked />
-                        <label for="gold"><i class="fa-solid fa-fire"></i> Nos pépites</label>
+                    <div class="filters">
+                        <div class="filter">
+                            <input type="radio" id="eco" name="filters" value="eco" checked />
+                            <label for="eco"><i class="fa-solid fa-money-bill-wave"></i> Economique</label>
+                        </div>
+                        <div class="filter">
+                            <input type="radio" id="family" name="filters" value="family" checked />
+                            <label for="family"><i class="fa-solid fa-person"></i> Familial</label>
+                        </div>
+                        <div class="filter">
+                            <input type="radio" id="romantic" name="filters" value="romantic" checked />
+                            <label for="romantic"><i class="fa-solid fa-heart"></i> Romantique</label>
+                        </div>
+                        <div class="filter">
+                            <input type="radio" id="gold" name="filters" value="gold" checked />
+                            <label for="gold"><i class="fa-solid fa-fire"></i> Nos pépites</label>
+                        </div>
                     </div>
                 </div>
                 <p><i class="fa-solid fa-circle-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
