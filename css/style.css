@@ -411,12 +411,14 @@ button.desktop {
         width: 20%;
     }
     .header nav {
-        padding: 15px;
+        padding: 15px 0;
+        display: flex;
     }
     
     .header nav a {
         padding: 5px 20px;
         position: relative;
+        width: 50%;
     }
     .header nav a:hover {
         color: var(--main-color);
@@ -427,7 +429,7 @@ button.desktop {
         left: 0;
         right: 0;
         top: 40px;
-        border-bottom: 1px solid var(--main-color);
+        border-top: 2px solid var(--main-color);
     }
     button.mobile {
         display: block;
