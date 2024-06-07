@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/AurelieDuynslaeger/adohmyfood.github.io">
+  <a href="https://github.com/AurelieDuynslaeger/OCR-Project2-Booki">
     <img src="./images/logo/Booki.png" alt="Logo" width="300">
   </a>
 
@@ -18,15 +18,6 @@
   </ol>
 </details>
 
-<p align="center">
-    <a href="https://github.com/AurelieDuynslaeger/adohmyfood.github.io/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/AurelieDuynslaeger/adohmyfood.github.io/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## À propos du projet
 
@@ -35,6 +26,8 @@ L’entreprise souhaite développer un site Internet qui permette aux usagers de
 
 La mission était de développer la landing page de leur site, en desktop first.
 
+
+<img src="./Desktop.png" alt="Logo" width="300">
 
 ## Langages utilisés
 
