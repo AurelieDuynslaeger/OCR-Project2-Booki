@@ -29,11 +29,9 @@ La mission était de développer la landing page de leur site, en desktop first.
 
 <img src="./Desktop.png" alt="Logo" width="300">
 
-## Langages utilisés
+## Langages utilisés et autres technologies
 
-* [![HTML5][html.com]][html-url]
-* [![CSS3][css.com]][css-url]
-
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)![Figma](https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=white)
 
 ## Missions
 
